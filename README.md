@@ -1,2 +1,2 @@
 # Szorzás gyakorló
-Ezt a kis egyszerű webalkalmazást a legkisebb fiamnak készítettem, hogy gyakorolja a szorzást. :)
+Ezt az egyszerű webalkalmazást a legkisebb fiamnak készítettem, hogy gyakorolja a szorzást. :)
