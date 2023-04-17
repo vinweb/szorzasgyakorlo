@@ -38,6 +38,7 @@ input {
   border: 1px solid lightgrey;
   border-radius: .5rem;
   color: inherit;
+  width: 5rem;
 }
 
 .box {
