@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #1864ab;
+  font-family: 'Comfortaa', cursive;
+  line-height: 1.5;
+  color: #343a40;
+}
+
+h1 {
+  color: white;
+  margin: 5rem 0;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+h2 {
+  margin-bottom: .5rem;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+input {
+  padding: .5rem;
+  border: 1px solid lightgrey;
+  border-radius: .5rem;
+  color: inherit;
+}
+
+.box {
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+  padding: 3rem;
+  max-width: 30rem;
+  margin: auto;
+  box-shadow: 0 2.3rem 4.7rem rgba(0, 0, 0, 0.1);
+}
+
+.box-multiplication {
+  text-align: center;
+}
+
+.box-stat {
+  margin-top: 2rem;
+}
+
+.message {
+  min-height: 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.text-green {
+  color: #5c940d;
+}
+
+.text-red {
+  color: #c92a2a;
+}
+
+.operation {
+  font-size: 2rem;
+  margin: 2rem 0 3rem;
+}
+
+.btn {
+  border: none;
+  background-color: #5c940d;
+  border-radius: 100rem;
+  color: white;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.btn-next {
+  background-color: #f08c00;
+}
+
+.btn-reset {
+  border: none;
+  border-radius: 100rem;
+  padding: .6rem 1.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: #dee2e6;
+  font-size: .9rem;
+}
+
+.box-stat span {
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  color: #f8f9fa;
+  font-size: .8rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 576px) {
+
+  html,
+  body {
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  .box-multiplication,
+  .box-stat {
+    max-width: 100%;
+    border-radius: 0;
+    padding: 2rem;
+  }
+
+  .box-stat {
+    margin-top: 1px;
+  }
+
+  .operation {
+    margin: 1rem 0 2rem;
+  }
+
+  .footer {
+    margin-top: 2rem;
+  }
+}

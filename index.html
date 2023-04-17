@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Szorzótábla gyakorlása</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Szorzás gyakorló</h1>
+  <div class="box box-multiplication">
+    <p class="message text-green">&nbsp;</p>
+    <div class="operation">
+      <span class="number-1">7</span> &middot; <span class="number-2">7</span>
+      =
+      <input type="number" name="result" id="result" min="0" max="99">
+    </div>
+    <button type="button" class="btn">Ellenőrzés</button>
+  </div>
+  <div class="box box-stat">
+    <h2>Statisztika</h2>
+    <p>Elvégzett szorzások: <span id="tasks-sum">0</span> db</p>
+    <p class="text-green">Jó megoldás: <span id="tasks-correct">0</span> db
+    </p>
+    <p class="text-red">Hibás: <span id="tasks-incorrect">0</span> db</p>
+    <p>A megoldások <span id="tasks-percent">0</span>%-a volt jó.</p>
+    <button type="button" class="btn-reset">Visszaállít</button>
+  </div>
+  <div class="footer">Készítette: Vincze János</div>
+  <script src="app.js"></script>
+</body>
+
+</html>
